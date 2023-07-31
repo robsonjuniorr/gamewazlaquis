@@ -1,0 +1,177 @@
+@media (max-width: 1000px)
+{
+  body{
+    width: 100%;
+    height: 300px;
+  }
+  
+h1{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+h4{
+    font-size: 50px;
+}
+h5{
+    font-size: 25px;
+}
+
+.left{
+    border-radius: 50px 0px 0px 50px;
+}
+
+.rigth{
+    border-radius: 0px 50px 50px 0px;
+}
+
+#joystick{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.botaoMaior{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+    margin-left: 5px;
+}
+
+.botaoMaiorDireito{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+    margin-left: 5px;
+}
+
+.start-btn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 12px 15px 0px 0;
+}
+
+.next-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 12px 15px 0px 10px;
+}
+
+.botaoMenorRigth{
+    margin-top: 100px;
+}
+
+.cima2, .baixo2, .centro1, .centro3{
+    width: 25px;
+    height: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+.logo img{
+    margin-top: 35px;
+    width: 120px;
+}
+
+#question{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#question-container{
+    margin: 0px 30px 0px 30px;
+    grid-template-rows: 30% 70%;
+}
+#question-container button{
+    font-size: 12px;
+}
+
+.resul{
+    height: 300px;
+    padding-top: 0px;
+    margin: 0 10px 0 20px;
+}
+
+.resul img{
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+.gif{
+    align-items: center;
+    height: 100px;
+} 
+
+.resul h4{
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.resul h5{
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.resul h6{
+    font-size: 10px;
+    margin-top: -60px;
+}
+
+.nome-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  .nome-input label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .nome-input input {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: -150px;
+    width: 250px;
+    color: #000;
+}
+
+.nome-input input::placeholder {
+    font-size: 20px;
+    color: #000;
+}
+  
+  .nome-input button {
+    padding: 0px 0px;
+    font-size: 0px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #nome-output {
+    font-weight: bold;
+  }
+}
